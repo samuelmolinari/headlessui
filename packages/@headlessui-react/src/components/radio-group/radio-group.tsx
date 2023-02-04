@@ -300,7 +300,7 @@ let RadioGroupRoot = forwardRefWithAs(function RadioGroup<
     role: 'radiogroup',
     'aria-labelledby': labelledby,
     'aria-describedby': describedby,
-    onKeyDown: handleKeyDown,
+    //onKeyDown: handleKeyDown,
   }
 
   let slot = useMemo<RadioGroupRenderPropArg<TType>>(() => ({ value }), [value])
